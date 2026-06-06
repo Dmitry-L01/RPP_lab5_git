@@ -1,10 +1,13 @@
 # Версия 2.0. Для GIT.
+# Изменения в ветке feature
 
 import csv
 import tkinter as tk # библиотека для окон
 import os  # библиотека для работы с файлами и папками
 from tkinter import ttk # для таблиц
 
+
+print("Ветка feature")
 # Создаем не зависимый класс
 class Car:
     def __init__(self, folder_path):
